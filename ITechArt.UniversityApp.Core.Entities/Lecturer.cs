@@ -6,6 +6,7 @@ namespace ITechArt.UniversityApp.Core.Entities
 {
     public class Lecturer
     {
+        public int ID { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public DateTime Birthdate { get; set; }
