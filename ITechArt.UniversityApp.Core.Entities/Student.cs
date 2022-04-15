@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ITechArt.UniversityApp.Core.Entities
 {
-    public class Student
+    public class Student: Entity
     {
         public string Name { get; set; }
         public string Email { get; set; }

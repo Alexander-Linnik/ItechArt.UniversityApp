@@ -4,8 +4,9 @@ using System.Text;
 
 namespace ITechArt.UniversityApp.Core.Entities
 {
-	public class Department: Entity
+	public abstract class Entity
 	{
-		public string Name { get; set; }
+		public long Id { get; set; }
+		public DateTime CreationTime { get; set; }
 	}
 }
