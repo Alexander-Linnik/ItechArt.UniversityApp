@@ -1,17 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ITechArt.UniversityApp.Core.DataAccess
 {
-	public interface IRepository<T>
+	public interface IRepository<T> where T : class
 	{
-		IEnumerable<T> GetAll();
-		T Get(int id);
-		void Create(T TObject);
-		void Update(T TObject);
-		void Delete(int id);
-		void Save();
+		Task<IEnumerable<T>> GetAll();
+		Task<T> Get(int id);
+		Task Create(T TObject);
+		Task Update(T TObject);
+		Task Delete(int id);
+		Task Save();
 
 	}
 }
