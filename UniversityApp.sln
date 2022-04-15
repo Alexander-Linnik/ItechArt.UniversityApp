@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITechArt.UniversityApp.Core.Entities", "ITechArt.UniversityApp.Core.Entities\ITechArt.UniversityApp.Core.Entities.csproj", "{66F87993-15F1-4617-8F00-9166BA060A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITechArt.UniversityApp.Core.DataAccess.Abstracts", "ITechArt.UniversityApp.Core.DataAccess.Abstracts\ITechArt.UniversityApp.Core.DataAccess.Abstracts.csproj", "{85BC1EEF-1847-4F32-AFE5-55797ACC4BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITechArt.UniversityApp.Core.DataAccess.EF", "ITechArt.UniversityApp.Core.DataAccess.EF\ITechArt.UniversityApp.Core.DataAccess.EF.csproj", "{9852EF80-718C-476F-9DFE-599BCFF2F31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITechArt.UniversityApp.Core.Common", "ITechArt.UniversityApp.Core.Common\ITechArt.UniversityApp.Core.Common.csproj", "{3F1057A8-80EE-4091-9214-CB96705A6D4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITechArt.UniversityApp.Core.BusinessLogic.Abstracts", "ITechArt.UniversityApp.Core.BusinessLogic.Abstracts\ITechArt.UniversityApp.Core.BusinessLogic.Abstracts.csproj", "{0944E474-1DEE-4A1A-9BBE-35BEE7AD4937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITechArt.UniversityApp.Core.BusinessLogic", "ITechArt.UniversityApp.Core.BusinessLogic\ITechArt.UniversityApp.Core.BusinessLogic.csproj", "{FFB1691E-640A-4FC2-8D2C-A4C347E1B6C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0CB13399-4787-4334-8943-F1AF74C9064A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{12C47B87-4660-4DA3-BADB-BE662269DC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITechArt.UniversityApp.Web.MainApi", "ITechArt.UniversityApp.Web.MainApi\ITechArt.UniversityApp.Web.MainApi.csproj", "{C3CC72A2-F07E-419C-A1A1-8D84B981C646}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66F87993-15F1-4617-8F00-9166BA060A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F87993-15F1-4617-8F00-9166BA060A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F87993-15F1-4617-8F00-9166BA060A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F87993-15F1-4617-8F00-9166BA060A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85BC1EEF-1847-4F32-AFE5-55797ACC4BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85BC1EEF-1847-4F32-AFE5-55797ACC4BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85BC1EEF-1847-4F32-AFE5-55797ACC4BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85BC1EEF-1847-4F32-AFE5-55797ACC4BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9852EF80-718C-476F-9DFE-599BCFF2F31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9852EF80-718C-476F-9DFE-599BCFF2F31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9852EF80-718C-476F-9DFE-599BCFF2F31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9852EF80-718C-476F-9DFE-599BCFF2F31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1057A8-80EE-4091-9214-CB96705A6D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1057A8-80EE-4091-9214-CB96705A6D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1057A8-80EE-4091-9214-CB96705A6D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1057A8-80EE-4091-9214-CB96705A6D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0944E474-1DEE-4A1A-9BBE-35BEE7AD4937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0944E474-1DEE-4A1A-9BBE-35BEE7AD4937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0944E474-1DEE-4A1A-9BBE-35BEE7AD4937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0944E474-1DEE-4A1A-9BBE-35BEE7AD4937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB1691E-640A-4FC2-8D2C-A4C347E1B6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB1691E-640A-4FC2-8D2C-A4C347E1B6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB1691E-640A-4FC2-8D2C-A4C347E1B6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB1691E-640A-4FC2-8D2C-A4C347E1B6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CC72A2-F07E-419C-A1A1-8D84B981C646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CC72A2-F07E-419C-A1A1-8D84B981C646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CC72A2-F07E-419C-A1A1-8D84B981C646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CC72A2-F07E-419C-A1A1-8D84B981C646}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66F87993-15F1-4617-8F00-9166BA060A1E} = {0CB13399-4787-4334-8943-F1AF74C9064A}
+		{85BC1EEF-1847-4F32-AFE5-55797ACC4BB6} = {0CB13399-4787-4334-8943-F1AF74C9064A}
+		{9852EF80-718C-476F-9DFE-599BCFF2F31D} = {0CB13399-4787-4334-8943-F1AF74C9064A}
+		{3F1057A8-80EE-4091-9214-CB96705A6D4C} = {0CB13399-4787-4334-8943-F1AF74C9064A}
+		{0944E474-1DEE-4A1A-9BBE-35BEE7AD4937} = {0CB13399-4787-4334-8943-F1AF74C9064A}
+		{FFB1691E-640A-4FC2-8D2C-A4C347E1B6C1} = {0CB13399-4787-4334-8943-F1AF74C9064A}
+		{C3CC72A2-F07E-419C-A1A1-8D84B981C646} = {12C47B87-4660-4DA3-BADB-BE662269DC25}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F72C2379-720A-4BBA-86BC-FCD317905DB8}
+	EndGlobalSection
+EndGlobal
