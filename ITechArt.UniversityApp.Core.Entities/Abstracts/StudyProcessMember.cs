@@ -8,6 +8,5 @@ namespace ITechArt.UniversityApp.Core.Entities.Abstracts
 	{
 		long DepartmentId { get; set; }
 		public ICollection<Grade> Grades { get; set; }
-		//public virtual ICollection<Course> Courses { get; set; }
 	}
 }
