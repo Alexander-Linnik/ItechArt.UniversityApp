@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using ITechArt.UniversityApp.Core.Entities.Abstracts;
 
 namespace ITechArt.UniversityApp.Core.Entities
 {
-	public class CourseToStudentMap:IEntity
+	public class CourseToStudentMap : IEntityMarker
 	{
-		long CourseId { get; set; }
-		long StudentId { get; set; }
-		public DateTime CreatedAt { get; set; }
-		public long Id { get; set; }
-		public DateTime UpdatedAt { get; set; }
+		public long CourseId { get; set; }
+		public Course Course { get; set; }
+
+		public long StudentId { get; set; }
+		public Student Student { get; set; }
 	}
 }

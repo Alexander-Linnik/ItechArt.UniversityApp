@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ITechArt.UniversityApp.Core.Entities.Abstracts
 {
-	interface ICreatable
-	{ 
+	public interface ICreatable: IIdentifiable
+	{
 		DateTime CreatedAt { get; set; }
 	}
 }

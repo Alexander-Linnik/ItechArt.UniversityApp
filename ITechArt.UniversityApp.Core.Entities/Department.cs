@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace ITechArt.UniversityApp.Core.Entities
 {
-	public class Department: IEntity
+	public class Department : AbstractEntity
 	{
 		public string Name { get; set; }
-		public DateTime CreatedAt { get; set; }
-		public long Id { get; set; }
-		public DateTime UpdatedAt { get; set; }
+
+		public ICollection<Student> Students { get; set; }
+		public ICollection<Lecturer> Lecturers { get; set;}
+		public ICollection<Course> Courses { get; set; }
 	}
 }

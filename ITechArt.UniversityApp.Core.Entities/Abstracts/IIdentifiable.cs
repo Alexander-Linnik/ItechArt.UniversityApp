@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ITechArt.UniversityApp.Core.Entities.Abstracts
+﻿namespace ITechArt.UniversityApp.Core.Entities.Abstracts
 {
-	interface IIdentifiable
+	public interface IIdentifiable : IEntityMarker
 	{
-		long Id { get; set; }	
+		long Id { get; set; }
 	}
 }
